@@ -1,0 +1,93 @@
+body{
+	font-size: 16px;
+	font-family: Arial;
+	background: url('Guitar.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	color:gray;
+	border-radius: 20px 30px 30px 20px;
+	border: 10px solid white;
+	border-style: thick;
+	text-align: center;
+	background-color: black;
+}
+h2, h3{
+	color: white;
+}
+p{
+	color: white;
+	text-align: center;
+	background-color: black;
+	border-radius: 5px 5px 5px 10px;
+	font-size: 20px;
+	border: 4px solid white;
+}
+footer{
+	font-family: Courier;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+	color: white;
+}
+#menubalk ul{
+	display: inline;
+	margin-left: 0%;
+	padding-left: 0%;
+	color: gray;
+	list-style-type: none;
+}
+#menubalk{
+	height:30px;
+	color:gray;
+	background: black;
+	text-decoration: none;
+}
+#menubalk li{
+	display: inline;
+	margin-left: 0px;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 50px;
+	font-size: 20px;
+	opacity: 60%;
+}
+#wrapper{
+	margin:0px auto 0px auto;
+	min-width: 780px;
+	max-width:1000px;
+}
+.dikkerand{
+	border: 9px solid white;
+	border-radius: 30px 30px 30px 30px;
+}
+.dikkerand1{
+	border-radius: 5px 5px 5px 5px;
+	border: 3px solid white;
+	position: fixed;
+	text-align: center;
+	left:500px;
+	right:500px;
+}
+#afbeelding{
+	display: inline-block;
+}
+.Afbeelding{
+	list-style-type: none;
+}
+.h2_biografie{
+	border-color: gray;
+	border-width: 10px;
+	border-radius: 10px 10px 10px 10px;
+	border: 4px solid white;
+	margin-top: 100px;
+	background-color: black;
+}
+.liedjes{
+	margin-top: 100px;
+}
+.Video{
+	text-align: center;
+	margin-top: 60px;
+}
