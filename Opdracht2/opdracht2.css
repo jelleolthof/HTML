@@ -5,16 +5,13 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-h1{
+h1, h2, h3{
 	color:gray;
 	border-radius: 20px 30px 30px 20px;
-	border: 10px solid white;
+	border: 8px solid white;
 	border-style: thick;
 	text-align: center;
 	background-color: black;
-}
-h2, h3{
-	color: white;
 }
 p{
 	color: white;
@@ -30,6 +27,8 @@ footer{
 	font-variant: small-caps;
 	text-align: center;
 	color: white;
+	border: 2px solid gray;
+	border-radius: 5px 5px 5px 5px;
 }
 #menubalk ul{
 	display: inline;
@@ -37,12 +36,16 @@ footer{
 	padding-left: 0%;
 	color: gray;
 	list-style-type: none;
+
 }
-#menubalk{
+#menubalk {
 	height:30px;
 	color:gray;
 	background: black;
 	text-decoration: none;
+	border-bottom-right-radius: 20px;
+	text-align: center;
+	padding-top: 5px;
 }
 #menubalk li{
 	display: inline;
@@ -52,6 +55,15 @@ footer{
 	padding: 50px;
 	font-size: 20px;
 	opacity: 60%;
+}
+#menubalk a{
+	text-decoration: none;
+	color: white;
+	border-radius: 10px 10px 10px 10px;
+	border: 2px solid white;
+}
+#menubalk a:hover{
+	background: gray;
 }
 #wrapper{
 	margin:0px auto 0px auto;
@@ -72,9 +84,13 @@ footer{
 }
 #afbeelding{
 	display: inline-block;
+	text-align: center;
 }
 .Afbeelding{
 	list-style-type: none;
+}
+section {
+	text-align: center;
 }
 .h2_biografie{
 	border-color: gray;
