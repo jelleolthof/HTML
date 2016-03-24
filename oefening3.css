@@ -1,0 +1,15 @@
+.geel{
+	height:300px;
+	width:300px;
+	background-color: yellow;
+	margin-left: 300px;
+	opacity: 0.8;
+	margin-top: -150px;
+}
+.blauw{
+	height: 300px;
+	width: 300px;
+	background-color: blue;
+	margin-left: 150px;
+
+}
